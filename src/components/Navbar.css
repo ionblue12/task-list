@@ -1,0 +1,11 @@
+.Nav-set{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.Head-set{
+    
+    text-align: center;
+}

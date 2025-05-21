@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
-
+import './Navbar.css';
 export default function Navbar(){
     return(
-        <nav>
-            <h2>Tasks</h2>
-            <Link to="/tasklist">Tasklist</Link>
-        </nav>
+        <div>
+            <h1 className="Head-set">Tasks-List</h1>
+            <nav className="Nav-set">
+                <Link to="/tasklist">Tasks List</Link>
+                <Link to="/taskform">Task Form</Link>
+            </nav>
+        </div>
     );
 }

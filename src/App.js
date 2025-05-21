@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/tasklist" element={<TaskList />}/>
-        <Route path="/tasklist/taskform" element={<TaskForm />}/>
+        <Route path="/taskform" element={<TaskForm />}/>
       </Routes>
     </Router>
   );
